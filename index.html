@@ -5,13 +5,45 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Form</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 
 <body>
+    <div class="bg-image"></div>
+    <h1 id="title">Form for Programing Carrer</h1>
+    <p id="description">Please complete the form bellow to chose your carrer path</p>
+    <form id="survey-form">
+        <label id="name-label">Name <input placeholder="Enter your name" id='name' max='20' type="text" required>
+        </label>
+        <label id="email-label">Email <input placeholder="Enter your email" id="email" type='email' pattern='@'
+                required></label>
+        <label id="number-label">Age<input placeholder="Enter your number" type='number' min="18" max="100"
+                pattern="1-9" id="number"></label>
+        <label>Chose your desired carrer
+            <select id="dropdown">
+                <option>Front End</option>
+                <option>BackEnd End</option>
+                <option>FullStack End</option>
+            </select>
+        </label>
+        <label>What is your experience?
+            <input checked name='experience' id="experience" type="radio" value="1"><label for="experience">Junior (0-2
+                years)</label>
+            <input name='experience' id="experience" value="2" type="radio"><label for="experience">Middle
+                (2-5 years)</label>
+            <input name='experience' id="experience" value="3" type="radio"><label for="experience">Senior (+5
+                years)</label>
+        </label>
+        <label>At what companies do you wana work?</label>
+        <label><input value='Google' type="checkbox">Google</label>
+        <label><input value='Facebook' type="checkbox">Facebook</label>
+        <label><input value='Amazon' type="checkbox">Amazon</label>
+        <label>Do you have any aditional skills?<textarea>Enter your skiils</textarea></label>
+        <label class="submit"><input id='submit' type="submit"></label>
+    </form>
 
 </body>
 
