@@ -1,0 +1,54 @@
+* {
+    color: #ffff;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+
+body {
+
+    text-align: center;
+    margin: 0 300px 0 300px;
+    display: block;
+    background-size: cover;
+    background-image: url('https://images.unsplash.com/photo-1608501078713-8e445a709b39?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D');
+    display: grid;
+}
+
+#title {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 100px;
+}
+
+
+label {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+#submit {
+    background-color: #8c00ff;
+    border-radius: 999px;
+    border: none;
+}
