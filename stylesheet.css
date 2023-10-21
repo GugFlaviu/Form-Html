@@ -3,6 +3,7 @@
     font-family: monospace;
     font-size: 20px;
 
+
 }
 
 body {
@@ -10,9 +11,9 @@ body {
     margin: 0 300px 0 300px;
     display: block;
     background-size: cover;
-    background-image: url('https://images.unsplash.com/photo-1608501078713-8e445a709b39?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D');
+    background-image: linear-gradient(80deg, #3c00ff6c, #0040ff6c), url('https://images.unsplash.com/photo-1608501078713-8e445a709b39?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D');
     display: grid;
-    /*filter: blur(8px);*/
+
 }
 
 #title {
@@ -38,12 +39,15 @@ form {
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
+    text-align: left;
 }
 
 input {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
+    background-color: transparent;
+
 }
 
 #submit {
@@ -56,4 +60,97 @@ input {
 
     cursor: pointer;
 
+}
+
+#dropdown {
+    color: rgb(49, 49, 49);
+}
+
+option {
+    color: rgb(49, 49, 49);
+}
+
+textarea {
+    color: rgb(49, 49, 49);
+    width: 500px;
+    height: 100px;
+    resize: horizontal;
+    margin-top: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    min-width: 150px;
+}
+
+
+
+.work_options label {
+    width: 300px;
+
+}
+
+.work_options .options label input {
+
+    width: 17px;
+}
+
+.work_options .options label {
+    width: 200px;
+    text-align: justify;
+}
+
+
+
+.work_options .options {
+    display: grid;
+    text-align: center;
+    margin-left: 280px;
+    margin-top: -50px;
+    height: 200px;
+
+}
+
+input[type='text'],
+input[type='email'],
+input[type='number'] {
+    border-radius: 10px;
+    border: 3px #ffffff solid;
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+#desired_carrer {
+    color: transparent;
+    margin-top: 20px;
+    border-radius: 999px;
+    border: 1.5px rgba(255, 255, 255, 0.715) solid;
+}
+
+input::placeholder {
+    color: #fff;
+
+}
+
+
+
+.companys label {
+    display: block;
+
+    width: 150px;
+    height: 20px;
+}
+
+.companys input {
+    position: relative;
+    vertical-align: middle;
+    width: 20px;
+    margin-top: -5px;
+    margin-right: 5px;
+
+}
+
+input[type='radio'] {
+
+    margin-right: 10px;
+    position: relative;
+    vertical-align: middle;
 }

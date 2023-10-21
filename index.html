@@ -22,6 +22,7 @@
                 required></label>
         <label id="number-label">Age<input placeholder="Enter your number" type='number' min="18" max="100"
                 pattern="1-9" id="number"></label>
+        <hr id="desired_carrer">
         <label>Chose your desired carrer
             <select id="dropdown">
                 <option>Front End</option>
@@ -29,19 +30,28 @@
                 <option>FullStack End</option>
             </select>
         </label>
-        <label>What is your experience?
-            <input checked name='experience' id="experience" type="radio" value="1"><label for="experience">Junior (0-2
-                years)</label>
-            <input name='experience' id="experience" value="2" type="radio"><label for="experience">Middle
-                (2-5 years)</label>
-            <input name='experience' id="experience" value="3" type="radio"><label for="experience">Senior (+5
-                years)</label>
-        </label>
+        <hr id="desired_carrer">
+        <div class="work_options">
+            <label>What is your experience?</label>
+            <div class="options">
+                <label for="experience"><input checked name='experience' id="experience" type="radio"
+                        value="1">Junior(0-2years)</label>
+                <label for="experience"><input name='experience' id="experience" value="2" type="radio">Middle(2-5
+                    years)</label>
+                <label for="experience"><input name='experience' id="experience" value="3" type="radio">Senior
+                    (+5years)</label>
+            </div>
+
+        </div>
+        <hr id="desired_carrer">
         <label>At what companies do you wana work?</label>
-        <label><input value='Google' type="checkbox">Google</label>
-        <label><input value='Facebook' type="checkbox">Facebook</label>
-        <label><input value='Amazon' type="checkbox">Amazon</label>
-        <label>Do you have any aditional skills?<textarea>Enter your skiils</textarea></label>
+        <div class="companys">
+            <label><input value='Google' type="checkbox">Google</label>
+            <label><input value='Facebook' type="checkbox">Facebook</label>
+            <label><input value='Amazon' type="checkbox">Amazon</label>
+        </div>
+        <hr id="desired_carrer">
+        <label>Do you have any aditional skils?<textarea placeholder="Enter your skils..."></textarea></label>
         <label class="submit"><input id='submit' type="submit"></label>
     </form>
 
