@@ -16,12 +16,13 @@
     <h1 id="title">Form for Programing Carrer</h1>
     <p id="description">Please complete the form bellow to chose your carrer path</p>
     <form id="survey-form">
-        <label id="name-label">Name <input placeholder="Enter your name" id='name' max='20' type="text" required>
+        <label id="name-label">Name <input class='clear-input' placeholder="Enter your name" id='name' max='20'
+                type="text" required>
         </label>
-        <label id="email-label">Email <input placeholder="Enter your email" id="email" type='email' pattern='@'
-                required></label>
-        <label id="number-label">Age<input placeholder="Enter your number" type='number' min="18" max="100"
-                pattern="1-9" id="number"></label>
+        <label id="email-label">Email <input class='clear-input' placeholder="Enter your email" id="email" type='email'
+                pattern='@' required></label>
+        <label id="number-label">Age<input class='clear-input' placeholder="Enter your number" type='number' min="18"
+                max="100" pattern="1-9" id="number"></label>
         <hr id="desired_carrer">
         <label>Chose your desired carrer
             <select id="dropdown">
@@ -51,7 +52,8 @@
             <label><input value='Amazon' type="checkbox">Amazon</label>
         </div>
         <hr id="desired_carrer">
-        <label>Do you have any aditional skils?<textarea placeholder="Enter your skils..."></textarea></label>
+        <label>Do you have any aditional skils?<textarea class='clear-input'
+                placeholder="Enter your skils..."></textarea></label>
         <label class="submit"><input id='submit' type="submit"></label>
     </form>
 
