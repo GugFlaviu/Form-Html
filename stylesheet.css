@@ -3,15 +3,14 @@
     font-family: monospace;
     font-size: 20px;
 
-
 }
 
 body {
     text-align: center;
-    margin: 0 300px 0 300px;
+    margin: 0 300px;
     display: block;
     background-size: cover;
-    background-image: linear-gradient(80deg, #3c00ff6c, #0040ff6c), url('https://images.unsplash.com/photo-1608501078713-8e445a709b39?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D');
+    background-image: linear-gradient(80deg, #3c00ff6c, #0040ff6c), url("https://images.unsplash.com/photo-1608501078713-8e445a709b39?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbHBhcGVyJTIwNGt8ZW58MHx8MHx8fDA%3D");
     display: grid;
 
 }
@@ -25,9 +24,8 @@ h1 {
     margin-bottom: 100px;
 }
 
-
 label {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     width: 100%;
     min-height: 2em;
 
@@ -43,7 +41,7 @@ form {
 }
 
 input {
-    margin: 10px 0 0 0;
+    margin: 10px 0 0;
     width: 100%;
     min-height: 2em;
     background-color: transparent;
@@ -81,8 +79,6 @@ textarea {
     min-width: 150px;
 }
 
-
-
 .work_options label {
     width: 300px;
 
@@ -97,8 +93,6 @@ textarea {
     width: 200px;
     text-align: justify;
 }
-
-
 
 .work_options .options {
     display: grid;
@@ -159,5 +153,11 @@ input[type='radio'] {
     border: none;
     outline: none;
 
+}
+
+.transparent-background {
+    background-color: #ffffff3a;
+    border-radius: 9px;
+    margin: 0px 100px;
 
 }

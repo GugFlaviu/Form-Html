@@ -14,49 +14,53 @@
 <body>
     <div class="bg-image"></div>
     <h1 id="title">Form for Programing Carrer</h1>
-    <p id="description">Please complete the form bellow to chose your carrer path</p>
-    <form id="survey-form">
-        <label id="name-label">Name <input class='clear-input' placeholder="Enter your name" id='name' max='20'
-                type="text" required>
-        </label>
-        <label id="email-label">Email <input class='clear-input' placeholder="Enter your email" id="email" type='email'
-                pattern='@' required></label>
-        <label id="number-label">Age<input class='clear-input' placeholder="Enter your number" type='number' min="18"
-                max="100" pattern="1-9" id="number"></label>
-        <hr id="desired_carrer">
-        <label>Chose your desired carrer
-            <select id="dropdown">
-                <option>Front End</option>
-                <option>BackEnd End</option>
-                <option>FullStack End</option>
-            </select>
-        </label>
-        <hr id="desired_carrer">
-        <div class="work_options">
-            <label>What is your experience?</label>
-            <div class="options">
-                <label for="experience"><input checked name='experience' id="experience" type="radio"
-                        value="1">Junior(0-2years)</label>
-                <label for="experience"><input name='experience' id="experience" value="2" type="radio">Middle(2-5
-                    years)</label>
-                <label for="experience"><input name='experience' id="experience" value="3" type="radio">Senior
-                    (+5years)</label>
+    <div class="transparent-background">
+        <p id="description">Please complete the form bellow to chose your carrer path</p>
+        <form id="survey-form">
+            <label id="name-label">Name
+                <input class='clear-input' placeholder="Enter your name" id='name' max='20' type="text"
+                    required="required">
+            </label>
+            <label id="email-label">Email
+                <input class='clear-input' placeholder="Enter your email" id="email" type='email' pattern='@'
+                    required="required"></label>
+            <label id="number-label">Age<input class='clear-input' placeholder="Enter your number" type='number'
+                    min="18" max="100" pattern="1-9" id="number"></label>
+            <hr id="desired_carrer">
+            <label>Chose your desired carrer
+                <select id="dropdown">
+                    <option>Front End</option>
+                    <option>BackEnd End</option>
+                    <option>FullStack End</option>
+                </select>
+            </label>
+            <hr id="desired_carrer">
+            <div class="work_options">
+                <label>What is your experience?</label>
+                <div class="options">
+                    <label for="experience"><input checked="checked" name='experience' id="experience" type="radio"
+                            value="1">Junior(0-2years)</label>
+                    <label for="experience"><input name='experience' id="experience" value="2" type="radio">Middle(2-5
+                        years)</label>
+                    <label for="experience"><input name='experience' id="experience" value="3" type="radio">Senior
+                        (+5years)</label>
+                </div>
+
             </div>
-
-        </div>
-        <hr id="desired_carrer">
-        <label>At what companies do you wana work?</label>
-        <div class="companys">
-            <label><input value='Google' type="checkbox">Google</label>
-            <label><input value='Facebook' type="checkbox">Facebook</label>
-            <label><input value='Amazon' type="checkbox">Amazon</label>
-        </div>
-        <hr id="desired_carrer">
-        <label>Do you have any aditional skils?<textarea class='clear-input'
-                placeholder="Enter your skils..."></textarea></label>
-        <label class="submit"><input id='submit' type="submit"></label>
-    </form>
-
+            <hr id="desired_carrer">
+            <label>At what companies do you wana work?</label>
+            <div class="companys">
+                <label><input value='Google' type="checkbox">Google</label>
+                <label><input value='Facebook' type="checkbox">Facebook</label>
+                <label><input value='Amazon' type="checkbox">Amazon</label>
+            </div>
+            <hr id="desired_carrer">
+            <label>Do you have any aditional skils?<textarea class='clear-input'
+                    placeholder="Enter your skils..."></textarea>
+            </label>
+            <label class="submit"><input id='submit' type="submit"></label>
+        </form>
+    </div>
 </body>
 
 </html>
